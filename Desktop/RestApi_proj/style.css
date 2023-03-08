@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+}
+.center{
+    width: 76vw;
+    margin: auto;
+}
+.first{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+input{
+    display: inline-block;
+    width: 60vw;
+    padding: 7px;
+}
+button{
+    width: 9vw;
+    padding: 7px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+table{
+    width: 100%;
+}
+tr{
+    background-color:orange;
+    padding: 20px;
+    height: 30px;
+}
+td{
+    color:brown
+}
+tr:nth-child(even){
+    background-color: rgba(255, 68, 0, 0.886);
+}
